@@ -1,0 +1,8 @@
+{
+  "name": "contentful-db",
+  "version": "1.0.0",
+  "description": "Contentful database downloader / parser for use in the browser",
+  "repository": "https://github.com/jessetane/contentful-db",
+  "author": "jesse.tane@gmail.com",
+  "license": "Public Domain"
+}
