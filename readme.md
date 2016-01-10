@@ -23,7 +23,9 @@ var db = new Contentful({
 db.load(function () {
   console.log(db.entries)
   var pages = db.find({ type: 'pages' })
-  console.log(pages)
+  pages.forEach(function (page) {
+    console.log(page)
+  })
 })
 ```
 
